@@ -1,3 +1,3 @@
-module github.com/pashonic/udemyGoExercises/ToddMcLeod/Section7-exercise1
+module github.com/pashonic/udemyGoExercises/ToddMcLeod/Section7-exercise2
 
 go 1.14
