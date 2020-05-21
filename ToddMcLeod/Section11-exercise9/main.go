@@ -9,6 +9,8 @@ func main() {
 		"no_dr":           {"Being evil", "Ice cream", "Sunsets"},
 	}
 
+	m["aaron"] = []string{"computers", "games", "kids"}
+
 	for person, values := range m {
 		fmt.Printf("Name: %v\n", person)
 		for i, like := range values {
