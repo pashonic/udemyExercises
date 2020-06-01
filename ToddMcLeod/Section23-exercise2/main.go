@@ -13,5 +13,5 @@ func main() {
 	fmt.Println(<-ch)
 
 	fmt.Printf("------\n")
-	fmt.Printf("cs\t%T\n", ch)
+	fmt.Printf("cr\t%T\n", ch)
 }
