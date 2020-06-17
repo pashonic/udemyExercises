@@ -1,17 +1,20 @@
 package main
 
-import dog
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/pashonic/udemyGoExercises/ToddMcLeod/Section27-exercise1/dog"
+)
 
 type canine struct {
 	name string
-	age int
+	age  int
 }
 
 func main() {
-	fido := canine {
-		name : "Fido",
-		age : dog.Years(10)
+	fido := canine{
+		name: "Fido",
+		age:  dog.Years(10),
 	}
-	fmt.Print
+	fmt.Println(fido.age)
 }
