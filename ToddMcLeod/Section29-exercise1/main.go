@@ -1,15 +1,20 @@
-package main
+package starting_code
 
 import (
 	"fmt"
-	"github.com/GoesToEleven/go-programming/code_samples/010-ninja-level-thirteen/02/01-code-starting/quote"
-	"github.com/GoesToEleven/go-programming/code_samples/010-ninja-level-thirteen/02/01-code-starting/word"
+	"github.com/GoesToEleven/go-programming/code_samples/010-ninja-level-thirteen/01/starting-code/dog"
 )
 
-func main() {
-	fmt.Println(word.Count(quote.SunAlso))
+type canine struct {
+	name string
+	age  int
+}
 
-	for k, v := range word.UseCount(quote.SunAlso) {
-		fmt.Println(v, k)
+func main() {
+	fido := canine{
+		name: "Fido",
+		age:  dog.Years(10),
 	}
+	fmt.Println(fido)
+	fmt.Println(dog.YearsTwo(20))
 }
