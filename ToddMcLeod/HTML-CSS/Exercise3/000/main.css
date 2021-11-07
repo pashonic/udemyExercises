@@ -1,0 +1,26 @@
+html {
+    background-color: blue;
+}
+
+body {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: green;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 20px groove orange;
+    border-radius: 100%;
+}
+
+h1:nth-of-type(odd) {
+    color: red;
+}
+
+h1:nth-of-type(even) {
+    color: blue;
+}
