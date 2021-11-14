@@ -1,0 +1,22 @@
+
+html {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 2px solid red;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+a {
+    padding: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+}

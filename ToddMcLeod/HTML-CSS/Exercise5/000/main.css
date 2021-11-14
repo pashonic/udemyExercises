@@ -1,0 +1,27 @@
+* {
+    border: 1px dashed hotpink;
+}
+
+div {
+    height:100px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 40%;
+    display: inline-block;
+}
+
+div:nth-child(4n-3) {
+    background-color: red;
+}
+
+div:nth-child(4n-2) {
+    background-color: blue;
+}
+
+div:nth-child(4n-1) {
+    background-color: yellow;
+}
+
+div:nth-child(4n) {
+    background-color: green;
+}
